@@ -1,0 +1,81 @@
+                       Datatypes
+   Primitive            Derived             User-defined
+1. Integer           1. Function         1. Class
+2. Float             2. Array            2. Structure
+3. Character         3. Pointer          3. Union
+4. Boolean           4. Reference        4. Enum
+
+1. Integer
+Size = 4 bytes (32 bits)  (1 byte = 8 bits)
+Range (unsigned) = 0 to 2^32-1
+Range (signed) = -(2^-31) to (2^31)-1
+long long int:- 
+Size = 8 bytes
+Range = -(2^-63) to (2^63)-1
+long int:- 
+Size = 4 bytes
+Range = -(2^-31) to (2^31)-1
+short int:- 
+Size = 2 bytes
+Range = -(2^-16) to (2^16)-1
+
+
+2. Float
+Size = 4 bytes
+store upto 7 decimal digits
+Double:-
+Size = 8 bytes
+store upto 15 decimal digits
+
+3. Character (char)
+Size = 1 bytes
+ascii value of 'A' = 65
+ascii value of 'a' = 97
+
+4. Boolean (bool)
+stores boolean value -> true and false
+size = 1 byte
+
+Input and output
+int x;
+cout<<"Output";
+cin>>x;
+
+Loops
+For loop
+for(initialisation;condition;update){
+    body;
+}
+
+While loop 
+initialisation;
+while(condition){
+    body;
+    update;
+}
+
+Do-While loop 
+initialisation;
+do{
+    body;
+    update;
+}while(condition)
+
+Operators
+Bitwise Operator
+AND Operator: &
+OR Operator: |
+XOR Operator: ^
+Ones Operator: ~
+Left Shift Operator: <<
+Right Shift Operator: >>
+a<<n -> a* 2^n
+a>>n -> a/ 2^n
+
+Function
+returnType functionName(parameter 1,parameter 2,...){
+   function body
+}
+
+Array
+datatype arrayName[size]
