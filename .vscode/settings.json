@@ -1,5 +1,17 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "xlocinfo": "cpp",
+        "xutility": "cpp"
     }
 }
