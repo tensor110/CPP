@@ -12,6 +12,9 @@
         "ranges": "cpp",
         "span": "cpp",
         "xlocinfo": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "map": "cpp",
+        "xtree": "cpp",
+        "algorithm": "cpp"
     }
 }

@@ -1,29 +1,25 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-void nStarDiamond(int n) {
-    int i,j;
-    for(i=0;i<n;i++){
-        for(j=n-1;j>=0;j--){
-            cout<<" ";
+int max(int n, int m){
+    if(n>m) return n;
+    else return m;
+}
+int reverseBits(int n, int m)
+{
+    if(n%m == 0) return m;
+    if(m%n == 0) return n;
+    else{
+        int t =1;
+        for (int i = 1;i<max(m,n);i++){
+            if(m%i == 0 && n%i == 0){
+                t = i;
+            }
         }
-        for(j=1;j<=2*n-1;j++){
-            cout<<"*";
-        }
-        for(j=n-1;j>=0;j--){
-            cout<<" ";
-        }
-        for(j=0;j<n;j++){
-            cout<<" ";
-        }
-        for(j=2*n-1;j>=1;j--){
-            cout<<"*";
-        }
-        for(j=1;j<n;j++){
-            cout<<" ";
-        }
-        cout<<endl;
+        return t;
     }
 }
-int main(){
-    nStarDiamond(3);
+int main()
+{
+    int c = reverseBits(4,6);
+    cout << c;
 }

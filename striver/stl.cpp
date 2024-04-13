@@ -197,6 +197,39 @@ void explainUSet(){
 // Map - It stores unique keys in sorted order 
 void explainMap(){
     map <int, int> mpp;
+    map <int, pair<int, int>> mpp;
+    map <pair<int, int>, int> mpp;
+
+    mpp[1]= 2;   //[{1,2}]
+    mpp.insert({3,1});  //[{1,2}, {3,1}]
+    mpp.insert({2,4});  //[{1,2}, {2,4}, {3,1}]
+    
+    for(auto it : mpp){
+        cout<<it.first<< " " << it.second<<endl;     // 1 2    2 4    3 1
+    }
+
+    cout<< mpp[1]; // 2
+    cout<< mpp[5]; // 0 or null
+
+    auto it = mpp.find(3); // Return index of key 3
+    cout<<(it)->second;  // 1
+
+    auto it = mpp.find(5);  // Points to mpp.end()
+    // Simillarly we can do multimap and unordered map also 
+}
+
+void explainSort(){
+    int a,n;
+    sort(a, a+n);  //sort(v.begin(), v.end())
+    sort(a+2, a+4);
+    // sort(a, a+n, greater<int>); // It will sort in decending order 
+
+    string s= "123";
+    do{
+        cout<<s<<endl;   // 123, 132, 213, 231, 312, 321
+    }while(next_permutation(s.begin(), s.end()));
+
+    int maxi = max_element(a, a+n);
 }
 int main()
 {
