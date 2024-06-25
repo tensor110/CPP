@@ -1,25 +1,29 @@
 #include <iostream>
+#include<limits.h>
+#include<vector>
+#include <algorithm>
 using namespace std;
-int max(int n, int m){
-    if(n>m) return n;
-    else return m;
-}
-int reverseBits(int n, int m)
-{
-    if(n%m == 0) return m;
-    if(m%n == 0) return n;
-    else{
-        int t =1;
-        for (int i = 1;i<max(m,n);i++){
-            if(m%i == 0 && n%i == 0){
-                t = i;
+int longestPalindrome(string s) {
+        int i, j, x;
+        i = 0;
+        j = s.length()-1;
+        if(s.length()%2 == 0) x =0;
+        if(s.length()%2 != 0) x = 1;
+        while(i<j){
+            if(s[i] == s[j])
+                x++;
+            else{
+                x = 0;
+                break;
             }
+            i++;
+            j--;
         }
-        return t;
+        return 0;
     }
-}
+
 int main()
 {
-    int c = reverseBits(4,6);
-    cout << c;
+    int x = longestPalindrome("abccccdd");
+    cout<<x;
 }

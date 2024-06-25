@@ -15,6 +15,9 @@
         "xutility": "cpp",
         "map": "cpp",
         "xtree": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "initializer_list": "cpp",
+        "xhash": "cpp",
+        "ostream": "cpp"
     }
 }
