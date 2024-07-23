@@ -1,0 +1,9 @@
+01. Print your names n times.
+02. Print from 1 to n.
+03. Print from n to 1.
+04. Sum of first N numbers.
+05. Factorial of a number.
+06. Reverse an array.
+07. Check  string is palindrome or not.
+08. Find nth fibbonacci number.
+09. Print all the subsequences of an array 

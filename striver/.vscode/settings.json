@@ -3,6 +3,8 @@
         "queue": "cpp",
         "set": "cpp",
         "unordered_set": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "ostream": "cpp",
+        "xutility": "cpp"
     }
 }
