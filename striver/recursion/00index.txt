@@ -7,3 +7,7 @@
 07. Check  string is palindrome or not.
 08. Find nth fibbonacci number.
 09. Print all the subsequences of an array 
+10. Print all the subsequences of an array whose sum is k.
+11. Print any one subsequences of an array whose sum is k.
+12. Count no. of subsequences of an array whose sum is k.
+13. 
