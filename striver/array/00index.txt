@@ -1,0 +1,2 @@
+01. Find the largest elemnt from an array.
+02. Find the second largest elemnt from an array.
