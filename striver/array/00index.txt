@@ -1,2 +1,8 @@
 01. Find the largest elemnt from an array.
 02. Find the second largest elemnt from an array.
+03. Remove duplicates from a sorted array and print the no. of unique numbers.
+04. Left rotate the array by one place.
+05. Left rotate the array by k places.
+06. Move all the zeros present in an array to right.
+07. Linear Search
+08. Union of two sorted arrays

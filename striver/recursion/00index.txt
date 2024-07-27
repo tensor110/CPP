@@ -11,3 +11,5 @@
 11. Print any one subsequences of an array whose sum is k.
 12. Count no. of subsequences of an array whose sum is k.
 13. Print all the combinations of numbers from an array whose sum is k.
+14. Print all the unique combinations of numbers from an array whose sum is k.
+15. Print sums of all subsets of an array in increasing order.
