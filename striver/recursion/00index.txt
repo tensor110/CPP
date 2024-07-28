@@ -13,3 +13,7 @@
 13. Print all the combinations of numbers from an array whose sum is k.
 14. Print all the unique combinations of numbers from an array whose sum is k.
 15. Print sums of all subsets of an array in increasing order.
+16. Find all the unique subsets of an array.
+17. Find all the permutations of an array.
+18. The n-queen problem of placing n queens in n x n chessboard such that no two queens attack each other.
+19. Solve a sudoku puzzle by filling the empty cells
