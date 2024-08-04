@@ -6,3 +6,10 @@
 06. Move all the zeros present in an array to right.
 07. Linear Search
 08. Union of two sorted arrays
+09. Intersection of two sorted arrays
+10. Find the missing number in an array
+11. Find the maximum no. of consecutive ones.
+12. Find the no. which appeared once where all other appear twice.
+13. Find the longest subarray with sum k (positive numbers only)
+14. Two sum
+15. Sort array of 0's 1's and 2's
