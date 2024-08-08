@@ -1,5 +1,5 @@
-01. Find the largest elemnt from an array.
-02. Find the second largest elemnt from an array.
+01. Find the largest element from an array.
+02. Find the second largest element from an array.
 03. Remove duplicates from a sorted array and print the no. of unique numbers.
 04. Left rotate the array by one place.
 05. Left rotate the array by k places.
@@ -13,3 +13,12 @@
 13. Find the longest subarray with sum k (positive numbers only)
 14. Two sum
 15. Sort array of 0's 1's and 2's
+16. Find the majority element (> n/2 times)
+17. maximum subarray sum
+18. Rearrange array elements by sign
+19. Find the nect permutation
+20. Find the Leaders in an array
+21. Find the longest conssecutive sequence
+22. Set Matrix Zeros
+23. Rotate matrix by 90 degrees
+24. Spiral Traversal of a matrix
