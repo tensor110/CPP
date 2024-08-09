@@ -22,3 +22,6 @@
 22. Set Matrix Zeros
 23. Rotate matrix by 90 degrees
 24. Spiral Traversal of a matrix
+25. Find numbers of subarrays with sum k.
+26. Find the element in the Pascal's triangle (given row, column)
+27. 
