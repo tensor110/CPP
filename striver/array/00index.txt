@@ -18,10 +18,23 @@
 18. Rearrange array elements by sign
 19. Find the nect permutation
 20. Find the Leaders in an array
-21. Find the longest conssecutive sequence
+21. Find the longest consecutive sequence
 22. Set Matrix Zeros
 23. Rotate matrix by 90 degrees
 24. Spiral Traversal of a matrix
 25. Find numbers of subarrays with sum k.
-26. Find the element in the Pascal's triangle (given row, column)
-27. 
+26. Pascal's Triangle
+    Find the element in the Pascal's triangle (given row, column) 
+    Find the given in the Pascal's triangle (given row)
+    Find the Pascal Triangle of n rows.(given n) 
+27. Find the majority element (> n/3 times)
+28. 3 Sum
+29. 4 Sum
+30. Find the no. of subarrays with xor K.
+31. Merge Overlapping Sub-intervals
+32. Merge two Sorted Arrays Without Extra Space
+33. Find the repeating and missing numbers in an array
+34. Count inversions in an array 
+    (for all i & j < size of array, if i < j then you have to find pair (A[i],A[j]) such that A[j] < A[i])
+35. Count Reverse Pairs. (Reverse Pairs are those pairs where i<j and arr[i]>2*arr[j])
+36. Maximum Product Subarray in an Array
