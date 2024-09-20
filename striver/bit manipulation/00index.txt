@@ -1,0 +1,20 @@
+01. Convert decimal number to binary
+02. Convert binary number to decimal
+03. Find 1's compliment of a number
+04. Find 2's compliment of a number
+05. Perform AND opeartion
+06. Perform OR opeartion
+07. Perform XOR opeartion
+08. Perform right SHIFT opeartion
+09. Perform left SHIFT opeartion
+10. Perform NOT operation
+11. Swap 2 numbers
+12. Check if the ith bit is set or not
+13. Set the ith bit
+14. Clear the ith bit
+15. Toggle the ith bit
+16. remove the last set bit(rightmost)
+17. Check if a number is power of 2
+18. Count the no. of set bits
+19. Minimum bit flips to convert number 
+20. Find all subsets
